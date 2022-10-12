@@ -18,7 +18,7 @@
 			<DefaultRolloverStrategy max="10" />
 		</RollingFile>
 		<SplunkHttp name="splunk"
-			url="https://prd-p-uo8zc.splunkcloud.com:8088/" token="9fc00ccc-e51a-46b7-9245-8c5a7085ef72"
+			url="https://prd-p-uo8zc.splunkcloud.com:8088/" token="your token here"
 			index="main" disableCertificateValidation="true">
 			<PatternLayout pattern="%m" />
 		</SplunkHttp>
